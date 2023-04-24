@@ -17,8 +17,8 @@ CALCULAR.addEventListener('click', () => {
     }
     else if (DATO > 30){
         let flujo = superficieCorporal(DATO);
-        FLU.innerHTML = 'r1 * 1500 ' + ((flujo)) * 1500 / 24;
-        MAN.innerHTML = 'r2 * 2000 ' + ((flujo)) * 2000 / 24;
+        FLU.innerHTML = 'r1 * 1500 = ' + ((flujo)) * 1500 / 24;
+        MAN.innerHTML = 'r2 * 2000 = ' + ((flujo)) * 2000 / 24;
         FLU.style.display = 'block';
         MAN.style.display = 'block';
     }
